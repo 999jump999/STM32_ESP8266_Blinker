@@ -3,12 +3,9 @@
 #include <Blinker.h>
 
 /* 配置ESP8266 */
-char auth[] = "28e938a4367c"; //点灯科技设备KEY
-char ssid[] = "Innovation laboratory";  //WIFI名称-只支持2.4G
-char pswd[] = "99999999"; //WIFI密码
-// char auth[] = "28e938a4367c"; //点灯科技设备KEY
-// char ssid[] = "Mi10Pro";  //WIFI名称-只支持2.4G
-// char pswd[] = "12345678"; //WIFI密码
+char auth[] = ""; //点灯科技设备KEY
+char ssid[] = "";  //WIFI名称-只支持2.4G
+char pswd[] = ""; //WIFI密码
 
 /* 新建组件对象 */
 BlinkerButton Button1("btn-a");//开关按键_客厅
